@@ -96,3 +96,14 @@
 	});
 
 })(jQuery);
+
+// REMOVES AND ADDS OVERLAY OF GOOGLE MAPS
+$('.map').click(removeOverlay).mouseleave(addOverlay);
+
+function removeOverlay() {
+    $(this).find('.overlay').hide();
+}
+
+function addOverlay() {
+    $(this).find('.overlay').show();
+}
