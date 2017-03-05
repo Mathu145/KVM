@@ -3944,13 +3944,14 @@ body.is-mobile.landing #footer {
     font-size: 15px;
 }
 
+
 /* GOOGLEMAPS */
 
 .map .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 1%;
+    top: 0%;
     background: rgba(0, 51, 153, 0.6);
     transition: .5s;
     cursor: pointer;
